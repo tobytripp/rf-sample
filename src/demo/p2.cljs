@@ -18,11 +18,9 @@
   [:<>
    [:label label
     [:input
-     {:type :text
-      :value @(re-frame/subscribe [:text])
-      :on-change #(re-frame/dispatch
-                   [:update
-                    (-> % .-target .-value)])}]]
+     {:type      :text
+      :value     @(re-frame/subscribe [:text])
+      :on-change #(re-frame/dispatch [:update (-> % .-target .-value)])}]]
    [:p @(re-frame/subscribe [:text])]])
 
 (defn form []
