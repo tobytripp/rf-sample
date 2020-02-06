@@ -1,10 +1,10 @@
 # demo.core
 
-FIXME: Write a one-line description of your library/project.
+Just a demo of cljs and re-frame.
 
 ## Overview
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
+See https://figwheel.org/docs/emacs.html
 
 ## Development
 
