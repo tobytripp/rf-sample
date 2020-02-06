@@ -1,7 +1,7 @@
 (ns ^:figwheel-hooks demo.core
   (:require
    [goog.dom :as gdom]
-   [reagent.core :as reagent :refer [atom]]
+   [reagent.core :as reagent]
    [demo.p2 :as p2]))
 
 (defn get-app-element []
