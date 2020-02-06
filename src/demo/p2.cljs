@@ -2,7 +2,7 @@
   (:require
    [re-frame.core :as re-frame]))
 
-;; event.cljs
+;; events.cljs
 (re-frame/reg-event-db
  :update
  (fn [db [_ new-text]]
@@ -13,7 +13,7 @@
  :text
  (fn [db _] (:text db)))
 
-;; view.cljs
+;; views.cljs
 (defn echoing-input [label]
   [:<>
    [:label label
